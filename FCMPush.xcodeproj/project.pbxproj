@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787D64E6216F88E4003438B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 787D64E5216F88E4003438B8 /* GoogleService-Info.plist */; };
 		78DCA1DE216CB33C0022B919 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCA1DD216CB33C0022B919 /* AppDelegate.m */; };
 		78DCA1E1216CB33C0022B919 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCA1E0216CB33C0022B919 /* ViewController.m */; };
 		78DCA1E4216CB33C0022B919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DCA1E2216CB33C0022B919 /* Main.storyboard */; };
 		78DCA1E6216CB3430022B919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DCA1E5216CB3430022B919 /* Assets.xcassets */; };
 		78DCA1E9216CB3430022B919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DCA1E7216CB3430022B919 /* LaunchScreen.storyboard */; };
 		78DCA1EC216CB3430022B919 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCA1EB216CB3430022B919 /* main.m */; };
+		78DCA1FA216CB3680022B919 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F2216CB3650022B919 /* GoogleUtilities.framework */; };
+		78DCA1FB216CB3680022B919 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F3216CB3650022B919 /* FIRAnalyticsConnector.framework */; };
+		78DCA1FC216CB3680022B919 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F4216CB3660022B919 /* FirebaseCore.framework */; };
+		78DCA1FD216CB3680022B919 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F5216CB3660022B919 /* nanopb.framework */; };
+		78DCA1FE216CB3680022B919 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F6216CB3670022B919 /* GoogleAppMeasurement.framework */; };
+		78DCA1FF216CB3680022B919 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F7216CB3670022B919 /* FirebaseInstanceID.framework */; };
+		78DCA200216CB3680022B919 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F8216CB3680022B919 /* FirebaseAnalytics.framework */; };
+		78DCA201216CB3680022B919 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA1F9216CB3680022B919 /* FirebaseCoreDiagnostics.framework */; };
+		78DCA204216CB3930022B919 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA202216CB3910022B919 /* Protobuf.framework */; };
+		78DCA205216CB3930022B919 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA203216CB3920022B919 /* FirebaseMessaging.framework */; };
+		78DCA20B216CB7760022B919 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCA20A216CB7760022B919 /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		787D64E5216F88E4003438B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78DCA1D9216CB33C0022B919 /* FCMPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCMPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCA1DC216CB33C0022B919 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78DCA1DD216CB33C0022B919 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +39,19 @@
 		78DCA1E8216CB3430022B919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DCA1EA216CB3430022B919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78DCA1EB216CB3430022B919 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78DCA1F2216CB3650022B919 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		78DCA1F3216CB3650022B919 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		78DCA1F4216CB3660022B919 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		78DCA1F5216CB3660022B919 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		78DCA1F6216CB3670022B919 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		78DCA1F7216CB3670022B919 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		78DCA1F8216CB3680022B919 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		78DCA1F9216CB3680022B919 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		78DCA202216CB3910022B919 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		78DCA203216CB3920022B919 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		78DCA206216CB3BF0022B919 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		78DCA20A216CB7760022B919 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		78DCA20C216CE01E0022B919 /* FCMPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FCMPush.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DCA20B216CB7760022B919 /* UserNotifications.framework in Frameworks */,
+				78DCA1FA216CB3680022B919 /* GoogleUtilities.framework in Frameworks */,
+				78DCA1FF216CB3680022B919 /* FirebaseInstanceID.framework in Frameworks */,
+				78DCA1FB216CB3680022B919 /* FIRAnalyticsConnector.framework in Frameworks */,
+				78DCA1FE216CB3680022B919 /* GoogleAppMeasurement.framework in Frameworks */,
+				78DCA200216CB3680022B919 /* FirebaseAnalytics.framework in Frameworks */,
+				78DCA201216CB3680022B919 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				78DCA205216CB3930022B919 /* FirebaseMessaging.framework in Frameworks */,
+				78DCA1FD216CB3680022B919 /* nanopb.framework in Frameworks */,
+				78DCA1FC216CB3680022B919 /* FirebaseCore.framework in Frameworks */,
+				78DCA204216CB3930022B919 /* Protobuf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +81,7 @@
 			children = (
 				78DCA1DB216CB33C0022B919 /* FCMPush */,
 				78DCA1DA216CB33C0022B919 /* Products */,
+				78DCA209216CB7760022B919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +96,38 @@
 		78DCA1DB216CB33C0022B919 /* FCMPush */ = {
 			isa = PBXGroup;
 			children = (
+				78DCA20C216CE01E0022B919 /* FCMPush.entitlements */,
+				78DCA203216CB3920022B919 /* FirebaseMessaging.framework */,
+				78DCA202216CB3910022B919 /* Protobuf.framework */,
+				78DCA1F3216CB3650022B919 /* FIRAnalyticsConnector.framework */,
+				78DCA1F8216CB3680022B919 /* FirebaseAnalytics.framework */,
+				78DCA1F4216CB3660022B919 /* FirebaseCore.framework */,
+				78DCA1F9216CB3680022B919 /* FirebaseCoreDiagnostics.framework */,
+				78DCA1F7216CB3670022B919 /* FirebaseInstanceID.framework */,
+				78DCA1F6216CB3670022B919 /* GoogleAppMeasurement.framework */,
+				78DCA1F2216CB3650022B919 /* GoogleUtilities.framework */,
+				78DCA1F5216CB3660022B919 /* nanopb.framework */,
 				78DCA1DC216CB33C0022B919 /* AppDelegate.h */,
 				78DCA1DD216CB33C0022B919 /* AppDelegate.m */,
+				78DCA206216CB3BF0022B919 /* Firebase.h */,
 				78DCA1DF216CB33C0022B919 /* ViewController.h */,
 				78DCA1E0216CB33C0022B919 /* ViewController.m */,
 				78DCA1E2216CB33C0022B919 /* Main.storyboard */,
 				78DCA1E5216CB3430022B919 /* Assets.xcassets */,
+				787D64E5216F88E4003438B8 /* GoogleService-Info.plist */,
 				78DCA1E7216CB3430022B919 /* LaunchScreen.storyboard */,
 				78DCA1EA216CB3430022B919 /* Info.plist */,
 				78DCA1EB216CB3430022B919 /* main.m */,
 			);
 			path = FCMPush;
+			sourceTree = "<group>";
+		};
+		78DCA209216CB7760022B919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78DCA20A216CB7760022B919 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +161,11 @@
 				TargetAttributes = {
 					78DCA1D8216CB33C0022B919 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DCA1E9216CB3430022B919 /* LaunchScreen.storyboard in Resources */,
+				787D64E6216F88E4003438B8 /* GoogleService-Info.plist in Resources */,
 				78DCA1E6216CB3430022B919 /* Assets.xcassets in Resources */,
 				78DCA1E4216CB33C0022B919 /* Main.storyboard in Resources */,
 			);
@@ -220,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,15 +350,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FCMPush/FCMPush.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4KDHTKLH9Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FCMPush",
+				);
 				INFOPLIST_FILE = FCMPush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zylog.sample.FCMPush;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zylog.mrakproduction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,15 +376,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FCMPush/FCMPush.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4KDHTKLH9Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FCMPush",
+				);
 				INFOPLIST_FILE = FCMPush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zylog.sample.FCMPush;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zylog.mrakproduction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

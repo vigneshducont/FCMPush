@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,102 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter OTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2I-rm-SNE">
+                                <rect key="frame" x="16" y="86" width="112" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="112" id="bo2-Mc-da7"/>
+                                    <constraint firstAttribute="height" constant="21" id="eWc-io-Vrg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="xDw-uw-mmW">
+                                <rect key="frame" x="309" y="131" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="6fL-Aq-ugs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="7hl-V2-5Xy"/>
+                                    <constraint firstAttribute="height" constant="20" id="PC0-W2-Wki"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="akQ-8Q-BGd"/>
+                                </constraints>
+                                <color key="color" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oix-fh-2vS">
+                                <rect key="frame" x="108" y="126" width="28" height="30"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etm-iz-lvk">
+                                <rect key="frame" x="169" y="126" width="28" height="30"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="Gwg-yd-0bg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WSp-rG-kMY">
+                                <rect key="frame" x="222" y="126" width="28" height="30"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="7Ka-FH-szX"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aI2-9f-ta1">
+                                <rect key="frame" x="50" y="126" width="28" height="30"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="QWL-sB-82B"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartInsertDeleteType="no" smartQuotesType="no" textContentType="one-time-code"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0BL-fW-0p9"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WSp-rG-kMY" secondAttribute="trailing" constant="125" id="18b-Yf-4L6"/>
+                            <constraint firstItem="WSp-rG-kMY" firstAttribute="baseline" secondItem="aI2-9f-ta1" secondAttribute="baseline" id="4BI-Od-6Wb"/>
+                            <constraint firstItem="oix-fh-2vS" firstAttribute="leading" secondItem="aI2-9f-ta1" secondAttribute="trailing" constant="30" id="9nY-IQ-kqZ"/>
+                            <constraint firstItem="WSp-rG-kMY" firstAttribute="leading" secondItem="etm-iz-lvk" secondAttribute="trailing" constant="25" id="B2o-5u-1pc"/>
+                            <constraint firstItem="Q2I-rm-SNE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="Cf4-51-B7l"/>
+                            <constraint firstItem="aI2-9f-ta1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Ecl-di-Nj8"/>
+                            <constraint firstItem="xDw-uw-mmW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="111" id="Q86-gb-C32"/>
+                            <constraint firstItem="xDw-uw-mmW" firstAttribute="leading" secondItem="WSp-rG-kMY" secondAttribute="trailing" constant="59" id="XtB-RO-Zvn"/>
+                            <constraint firstItem="WSp-rG-kMY" firstAttribute="baseline" secondItem="oix-fh-2vS" secondAttribute="baseline" id="a9B-Uu-vC3"/>
+                            <constraint firstItem="Q2I-rm-SNE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ajy-xh-k3U"/>
+                            <constraint firstItem="xDw-uw-mmW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="111" id="jZD-Wm-pPM"/>
+                            <constraint firstItem="etm-iz-lvk" firstAttribute="baseline" secondItem="WSp-rG-kMY" secondAttribute="baseline" id="ps7-zd-Kd1"/>
+                            <constraint firstItem="WSp-rG-kMY" firstAttribute="centerY" secondItem="xDw-uw-mmW" secondAttribute="centerY" id="vN0-9X-PQ6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Q2I-rm-SNE" secondAttribute="trailing" symbolic="YES" id="vTd-e4-kBX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="xDw-uw-mmW" id="AVK-Ur-L7h"/>
+                        <outlet property="textField_otp" destination="aI2-9f-ta1" id="LQA-Xr-6fQ"/>
+                        <outlet property="textfield_0" destination="oix-fh-2vS" id="3IU-3d-fTQ"/>
+                        <outlet property="textfield_1" destination="etm-iz-lvk" id="cgv-pV-4Oy"/>
+                        <outlet property="textfield_2" destination="WSp-rG-kMY" id="lkV-Gq-wsj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
         </scene>
     </scenes>
 </document>
